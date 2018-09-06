@@ -1,6 +1,6 @@
 ﻿<!doctype>
 <head>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
 <h1>sfsfsdfsdfsdf</h1>
@@ -41,5 +41,24 @@
    <tr><td>47</td><td>13</td><td>48⅔</td><td>31</td></tr>
    <tr><td>48</td><td>13,5</td><td>49⅓</td><td>31,5</td></tr>
   </table>
- </ol>
+	</ol>
+	
+	<p><b>Form</b></p><form action="handler.php" name="form1" >
+			<p>Name: <input type="text" name="nick"></p>
+			<p><select name="num" form="data">
+				<option value="1">USA</option>
+				<option value="2">Ukraine</option>
+				<option value="3">Russia</option>
+			</select></p>
+		<fieldset id="fl"><legend>Gender</legend>
+			<input type="radio" name="browser" id="gend"male> Male<Br></td>
+			<input type="radio" name="browser" id="gend"female> Female</td>
+		</fieldset>
+		<fieldset id="fl"><legend>Select Type</legend>
+			<input type="checkbox" name="option2" value="a2" id="type">Tipe1<Br>
+			<input type="checkbox" name="option3" value="a3"id="type">Tipe2<Br> 
+		</fieldset>
+		<p>Description <textarea rows="10" cols="45" name="text" style="margin: 0px; width: 723px; height: 189px;"></textarea></p>
+		<p><input id="sbf" type="submit" value="Submit form"></p>
+	</form>
  </body>
