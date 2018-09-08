@@ -1,3 +1,46 @@
 ﻿#fl {
 	border-right:none;
 }
+.header{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+	width:100%;
+	height:749px;
+	background-image: url(../images/fone.jpg);
+}
+.logo{
+	margin:0;
+	padding:0;
+	width:248px;
+	height:85px;
+	position:absolute;
+	top: 10px;
+    left: 10px;
+}
+.phone{
+	width:194px;
+	position:absolute;
+	left:287px;
+}
+.phone2{
+	width:200px;
+	position:absolute;
+	left:493px;;
+}
+#w{
+	top: 35px;
+	color:ffffff;
+	font-size:30px;
+	height: 35px;
+}
+#w>href{
+	top: 35px;
+	color:ffffff;
+	font-size:30px;
+}
