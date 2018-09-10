@@ -1,0 +1,70 @@
+body{
+	background-color: #D3D3D3;
+}
+.mr{
+	margin: 15px 28px 33px 26px;
+}
+.content{
+	box-shadow: 0 0 20px 20px black;
+	background-color: white;
+	display:block;
+	width: 600px;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	position: absolute;
+	left: 20%;
+}
+.content>h1{
+	margin-left: 250px;
+}
+#id_description{
+	width: 532px;
+  height: 50px;
+}
+.content>h1{
+	padding-top: 10px;
+	color: white;
+	background-color: #800080;
+	margin: 0;
+  text-align: center;
+  height: 55px;
+}
+#id_name{
+	width: 99%;
+  height: 29px;
+  font-family: sans-serif;
+  margin:10px 0 0 0; 
+}
+.brd>input:focus{
+	outline: none;
+}
+/*.brd>input:focus::-webkit-input-placeholder {opacity: 0;}*/
+.brd{
+	padding: 10px 0 30px 0px;
+	border: none;
+}
+.content>fieldset{
+	padding-top: 10px;
+}
+.default{
+	border: 1px solid rgba(0, 0, 0, 0.04);     
+}
+.cnt{
+	width: 520px;
+	border-radius: 5px;
+	background: #D3D3D3;
+	padding-left: 3px;
+  padding-top: 1px;
+}
+#id_name ,#id_description{
+ border: 1px solid rgba(0, 0, 0, 0.21); 
+ padding-left: 10px;  
+}
+#id_description:focus{
+	outline: none;
+}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+#id_description:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.default>label{
+	padding: 0 0 0 0;
+}
