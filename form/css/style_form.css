@@ -11,7 +11,7 @@ body{
 	width: 600px;
 	font-family: sans-serif;
 	box-sizing: border-box;
-	position: absolute;
+	position: auto;
 	left: 20%;
 }
 .content>h1{
@@ -54,7 +54,21 @@ body{
 	margin: 5px 16px 15px 5px;
 }
 input:checked + label {
- color: red;
+ 	color: red;
+}
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+/* Checkbox element, when checked */
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+/* Option elements, when selected */
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
 }
 .cnt{
 	width: 540px;
